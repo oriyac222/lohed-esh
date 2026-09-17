@@ -1,0 +1,5 @@
+/assets/*.mp4
+  Cache-Control: public, max-age=2592000, immutable
+
+/assets/*.jpeg
+  Cache-Control: public, max-age=2592000, immutable
