@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oriyac222.github.io/lohed-esh/sitemap.xml
