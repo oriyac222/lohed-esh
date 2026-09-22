@@ -1,4 +1,4 @@
-:root { --ink:#080909; --paper:#efefea; --muted:#aeb2af; --line:rgba(255,255,255,.17); --fire:#ff4e19; }
+:root { --ink:#fff1d7; --paper:#4a150c; --muted:#795342; --line:rgba(74,21,12,.2); --fire:#8f2414; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--ink); color:var(--paper); font-family:Arial,"Heebo",sans-serif; line-height:1.7; }
@@ -11,8 +11,8 @@ main { width:min(860px,84vw); margin:0 auto; padding:80px 0 100px; }
 .eyebrow { color:#ff8a2a; font-size:.8rem; letter-spacing:.08em; }
 h1 { font-size:clamp(2.8rem,7vw,5rem); line-height:1; letter-spacing:-.06em; margin:.4rem 0 2rem; }
 h2 { font-size:1.4rem; margin:3rem 0 1rem; }
-p,li { color:#d6d9d6; }
+p,li { color:#542217; }
 li { margin-bottom:.55rem; }
-.notice { padding:18px 20px; border-right:3px solid var(--fire); background:#141616; color:#e3e5e2; }
+.notice { padding:18px 20px; border-right:3px solid var(--fire); background:#ffe0bb; color:#4a150c; }
 .placeholder { color:#ff9b55; }
 footer { border-top:1px solid var(--line); padding:25px 8vw; color:var(--muted); font-size:.86rem; }

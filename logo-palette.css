@@ -1,0 +1,26 @@
+/* פלטת צבעים המבוססת על הלוגו: בורדו, כתום ואוף-וויט חם */
+:root { --ink:#310b08; --ink2:#54150d; --paper:#fff1d7; --muted:#e6bea0; --line:rgba(255,241,215,.25); --fire:#e23b16; --fire2:#ff9b22; }
+body { background:#310b08; color:#fff1d7; }
+.site-header { background:linear-gradient(#310b08df,transparent); }
+.cinematic-sticky { background:#310b08; }
+.scene-video { filter:brightness(.62) saturate(1.05) sepia(.18); }
+.scene-overlay { background:linear-gradient(90deg,#310b08db 0%,#55170d70 48%,#310b08e6 100%),linear-gradient(0deg,#310b08ce,transparent 45%); }
+.fire-overlay { background:radial-gradient(circle at 68% 58%,#ff76124a,transparent 28%),linear-gradient(90deg,#310b08e5,#6b1b1060 55%,#310b08e3); }
+.hero { background:radial-gradient(circle at 85% 15%,#8b2816 0,transparent 38%),#310b08; }
+.system { background:#54150d; }
+.services { background:#310b08; }
+.check { background:#54150d; }
+.readiness-form { background:rgba(255,241,215,.25); border-color:rgba(255,241,215,.25); }
+fieldset { background:#54150d; }
+.check-result { background:#6a1d10; border-color:#ff9b22; }
+.fieldwork,.final-cta { background:#fff1d7; color:#481109; }
+.work-copy p,.final-cta p { color:#6b2d1b; }
+.button-light { background:#7e1d11; border-color:#7e1d11; color:#fff1d7; }
+.button-light:hover,.button-light:focus-visible { color:#7e1d11; border-color:#7e1d11; }
+.contact { background:#310b08; }
+.brand-reveal { background:radial-gradient(circle at center,#6b1b10 0,#310b08 62%); }
+footer { background:#240705; color:#f4ceb1; border-color:rgba(255,241,215,.2); }
+footer div > a { color:#fff1d7; }
+.header-nav { color:#fff1d7; }
+.privacy-notice { color:#f0c9a8; }
+.privacy-notice a,.waze-link { color:#ffb13b!important; }

@@ -1,7 +1,7 @@
 /* הלוגו מופיע רק לאחר סיום המסע הקולנועי. */
 .header-name { font-size: .8rem; font-weight: 700; letter-spacing: .08em; }
-.brand-reveal { display: flex; min-height: 38vh; align-items: center; justify-content: center; gap: 22px; padding: 56px 8vw; background: #080909; }
-.brand-reveal img { width: clamp(96px, 12vw, 150px); height: clamp(96px, 12vw, 150px); border-radius: 50%; object-fit: cover; box-shadow: 0 0 50px rgba(255, 117, 35, .12); }
-.brand-reveal-line { width: clamp(35px, 7vw, 95px); height: 1px; background: #ff4e19; }
+.brand-reveal { display: flex; min-height: 62vh; align-items: center; justify-content: center; gap: 22px; padding: 56px 8vw; background: radial-gradient(circle at center, #17100d 0, #080909 58%); }
+.brand-reveal img { width: clamp(280px, 38vw, 540px); height: auto; border-radius: 0; object-fit: contain; box-shadow: 0 0 80px rgba(255, 117, 35, .12); }
+.brand-reveal-line { display: none; }
 .brand-reveal p { margin: 0; color: #efefea; font-size: clamp(1.7rem, 3.5vw, 3rem); font-weight: 700; letter-spacing: -.06em; }
-@media (max-width: 800px) { .brand-reveal { min-height: 30vh; gap: 14px; } .header-name { font-size: .75rem; } }
+@media (max-width: 800px) { .brand-reveal { min-height: 52vh; gap: 14px; } .brand-reveal img { width: min(88vw, 390px); height: auto; } .header-name { font-size: .75rem; } }

@@ -1,0 +1,44 @@
+/* שפה בהירה: שמנת, אפרסק עדין ובורדו מהלוגו */
+:root { --ink:#fff1d7; --ink2:#ffe4c2; --paper:#4a150c; --muted:#795342; --line:rgba(74,21,12,.18); --fire:#8f2414; --fire2:#d64a20; }
+body { background:#fff1d7; color:#4a150c; }
+.site-header { color:#fff1d7; background:linear-gradient(#250b07aa,transparent); }
+.cinematic-sticky { background:#160604; }
+.scene-video { filter:none; }
+.scene-overlay,.fire-overlay { background:none; }
+.scene-copy { color:#fffdf7; text-shadow:0 2px 18px rgba(0,0,0,.86); }
+.scene-copy .accent,.scene-copy .threat { color:#ffd3aa; }
+.scroll-cue,.scene-counter { color:#fff6e8; text-shadow:0 1px 8px #000; }
+.hero { background:linear-gradient(120deg,#ffc0a0 0%,#ffe6c3 34%,#fff4dc 72%); }
+.hero,.system,.services,.check,.contact { color:#4a150c; }
+.lead,.section-head>p,.work-copy>p,.final-cta>p,.contact>div>p { color:#71432e; }
+.section-label,.eyebrow { color:#8f2414; }
+.system { background:#ffe2c0; }
+.services { background:#fff1d7; }
+.check { background:linear-gradient(135deg,#fff1d7,#ffd8b0); }
+.process,.service-list { border-color:rgba(74,21,12,.18); }
+.process li,.service-list article { border-color:rgba(74,21,12,.18); }
+.process p,.service-list p { color:#795342; }
+.readiness-form { background:rgba(74,21,12,.17); border-color:rgba(74,21,12,.17); }
+fieldset { background:#fff8e8; }
+fieldset label { color:#63321f; }
+.check-result { background:#ffe7c8; border-color:#d64a20; }
+.disclaimer { color:#795342; }
+.fieldwork { background:#f8d3ad; color:#4a150c; }
+.work-visual video { filter:sepia(.08) contrast(1.04); }
+.final-cta { background:linear-gradient(115deg,#ffc19e,#fff0d4 54%); color:#4a150c; }
+.contact { background:#fff1d7; }
+.contact-form label { color:#4a150c; }
+.contact-form input,.contact-form textarea { border-color:rgba(74,21,12,.35); color:#4a150c; }
+.brand-reveal { background:radial-gradient(circle at center,#ffe2bf,#fff1d7 67%); }
+.brand-reveal img { box-shadow:0 0 65px rgba(143,36,20,.16); }
+footer { background:#401108; color:#ffe2c0; border-color:rgba(255,241,215,.3); }
+footer div>a,.header-nav { color:#fff1d7; }
+.privacy-notice { color:#795342; }
+.privacy-notice a,.waze-link { color:#8f2414!important; }
+.facebook-link { display:inline-block; margin:9px 0 0; color:#8f2414!important; font-size:.92rem; font-weight:700; text-decoration:underline; }
+.readiness-form { margin-top:5rem; gap:16px; background:transparent; border:0; }
+.readiness-form fieldset { min-height:300px; padding:40px; border:1px solid rgba(74,21,12,.22); }
+.readiness-form legend { width:100%; padding:0 0 28px; font-size:1.35rem; line-height:1.35; }
+.readiness-form label { margin:17px 0; font-size:1.12rem; }
+.readiness-form .button { grid-column:1 / -1; justify-content:center; justify-self:stretch; padding:21px 28px; font-size:1.15rem; }
+@media (max-width:800px) { .readiness-form { gap:12px; margin-top:3rem; } .readiness-form fieldset { min-height:auto; padding:28px; } .readiness-form legend { font-size:1.12rem; } }
